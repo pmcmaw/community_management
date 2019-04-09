@@ -37,6 +37,7 @@ class OctokitUtils
     'vcsrepo',
     'vsphere',
     'websphere_application_server',
+    'test',
   ]
 
   SUPPORTED_MODULES_REGEX = "^(puppetlabs-(#{SUPPORTED_MODULES.join('|')})|modulesync_configs)$"
